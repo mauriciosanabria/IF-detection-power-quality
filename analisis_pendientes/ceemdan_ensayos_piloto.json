@@ -1,0 +1,146 @@
+{
+ "v1_30": {
+  "nodo": "v1",
+  "ensayos": 30,
+  "n": 5,
+  "exito_un_imf": 0,
+  "exito_suma": 0,
+  "s_por_descomposicion": 1.7015812397003174,
+  "un IMF": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "suma": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "n_imf_en_banda": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "rms_imf1_kV": [
+   0.834644031090894,
+   0.8452179696671148,
+   0.8402431590344711,
+   0.8476527812599142,
+   0.8249021750775312
+  ]
+ },
+ "v1_200": {
+  "nodo": "v1",
+  "ensayos": 200,
+  "n": 5,
+  "exito_un_imf": 0,
+  "exito_suma": 0,
+  "s_por_descomposicion": 10.483301782608033,
+  "un IMF": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "suma": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "n_imf_en_banda": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "rms_imf1_kV": [
+   0.3697588814704689,
+   0.3643515099514278,
+   0.36797007969243883,
+   0.3835724217403336,
+   0.3737898221453396
+  ]
+ },
+ "v3_30": {
+  "nodo": "v3",
+  "ensayos": 30,
+  "n": 5,
+  "exito_un_imf": 0,
+  "exito_suma": 0,
+  "s_por_descomposicion": 1.8744712829589845,
+  "un IMF": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "suma": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "n_imf_en_banda": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "rms_imf1_kV": [
+   0.8028528085601515,
+   0.812964290804481,
+   0.8031662633653917,
+   0.8113320521973809,
+   0.7855834193727842
+  ]
+ },
+ "v3_200": {
+  "nodo": "v3",
+  "ensayos": 200,
+  "n": 5,
+  "exito_un_imf": 0,
+  "exito_suma": 0,
+  "s_por_descomposicion": 10.994769477844239,
+  "un IMF": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "suma": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "n_imf_en_banda": [
+   0,
+   0,
+   0,
+   0,
+   0
+  ],
+  "rms_imf1_kV": [
+   0.3551369239715742,
+   0.3526139210061917,
+   0.3498284624779871,
+   0.3665875935873554,
+   0.3588754734767432
+  ]
+ }
+}

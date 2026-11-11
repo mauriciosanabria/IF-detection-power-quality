@@ -1,0 +1,164 @@
+{
+ "f_c": 0.67,
+ "r_minimo": 1.4925373134328357,
+ "EMD": {
+  "pendiente": {
+   "aciertos": 58,
+   "de": 63,
+   "fallos": [
+    {
+     "r": 0.02,
+     "f2": 1000,
+     "rho": 0.4,
+     "tasa": 0.65,
+     "prediccion": false
+    },
+    {
+     "r": 0.05,
+     "f2": 650,
+     "rho": 0.65,
+     "tasa": 1.0,
+     "prediccion": false
+    },
+    {
+     "r": 0.05,
+     "f2": 1000,
+     "rho": 1.0,
+     "tasa": 1.0,
+     "prediccion": false
+    },
+    {
+     "r": 0.1,
+     "f2": 400,
+     "rho": 0.8,
+     "tasa": 1.0,
+     "prediccion": false
+    },
+    {
+     "r": 0.5,
+     "f2": 150,
+     "rho": 1.5,
+     "tasa": 0.05,
+     "prediccion": true
+    }
+   ]
+  },
+  "RF": {
+   "aciertos": 61,
+   "de": 63,
+   "fallos": [
+    {
+     "r": 0.2,
+     "f2": 250,
+     "rho": 1.0,
+     "tasa": 0.05,
+     "prediccion": true
+    },
+    {
+     "r": 0.5,
+     "f2": 150,
+     "rho": 1.5,
+     "tasa": 0.05,
+     "prediccion": true
+    }
+   ]
+  }
+ },
+ "CEEMDAN": {
+  "pendiente": {
+   "aciertos": 56,
+   "de": 63,
+   "fallos": [
+    {
+     "r": 0.05,
+     "f2": 400,
+     "rho": 0.4,
+     "tasa": 0.9,
+     "prediccion": false
+    },
+    {
+     "r": 0.05,
+     "f2": 650,
+     "rho": 0.65,
+     "tasa": 0.5,
+     "prediccion": false
+    },
+    {
+     "r": 0.05,
+     "f2": 1000,
+     "rho": 1.0,
+     "tasa": 0.9,
+     "prediccion": false
+    },
+    {
+     "r": 0.1,
+     "f2": 250,
+     "rho": 0.5,
+     "tasa": 0.7,
+     "prediccion": false
+    },
+    {
+     "r": 0.1,
+     "f2": 400,
+     "rho": 0.8,
+     "tasa": 1.0,
+     "prediccion": false
+    },
+    {
+     "r": 0.2,
+     "f2": 150,
+     "rho": 0.6,
+     "tasa": 0.5,
+     "prediccion": false
+    },
+    {
+     "r": 0.2,
+     "f2": 250,
+     "rho": 1.0,
+     "tasa": 1.0,
+     "prediccion": false
+    }
+   ]
+  },
+  "RF": {
+   "aciertos": 59,
+   "de": 63,
+   "fallos": [
+    {
+     "r": 0.02,
+     "f2": 1000,
+     "rho": 0.4,
+     "tasa": 0.0,
+     "prediccion": true
+    },
+    {
+     "r": 0.05,
+     "f2": 400,
+     "rho": 0.4,
+     "tasa": 0.9,
+     "prediccion": false
+    },
+    {
+     "r": 0.1,
+     "f2": 250,
+     "rho": 0.5,
+     "tasa": 0.7,
+     "prediccion": false
+    },
+    {
+     "r": 0.2,
+     "f2": 150,
+     "rho": 0.6,
+     "tasa": 0.5,
+     "prediccion": false
+    }
+   ]
+  }
+ },
+ "celdas_70Hz": {
+  "n": 9,
+  "EMD_max": 0.0,
+  "CEEMDAN_max": 0.0,
+  "VMD_max": 0.0
+ }
+}

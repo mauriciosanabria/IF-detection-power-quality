@@ -1,0 +1,237 @@
+{
+ "S": {
+  "30_v1_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.1858514719966693
+  },
+  "30_v3_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.081525855907895
+  },
+  "30_v2_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.205047225146103
+  },
+  "60_v1_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.8350669028217481
+  },
+  "60_v3_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.7994936906267498
+  },
+  "60_v2_30": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.8336144023218616
+  },
+  "30_v1_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.0456793878463313
+  },
+  "30_v3_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 1.968950008454908
+  },
+  "30_v2_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.068948193192619
+  },
+  "60_v1_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.37280474471308195
+  },
+  "60_v3_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.3577466084737227
+  },
+  "60_v2_200": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.3725060954485582
+  },
+  "30_v1_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.0311769274479685
+  },
+  "30_v3_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 1.954451677882223
+  },
+  "30_v2_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 2.0584028452220595
+  },
+  "60_v1_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.27966805871712064
+  },
+  "60_v3_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.2686301344612475
+  },
+  "60_v2_500": {
+   "n": 15,
+   "exito_un_imf": 0,
+   "exito_suma": 0,
+   "realizaciones_con_imf_en_banda": 0,
+   "rms_imf1_kV": 0.2799200633007401
+  }
+ },
+ "R": {
+  "30": {
+   "n": 100,
+   "rms_imf1_kV": 2.148246207589171,
+   "s_por_descomposicion": 6.7059999999999995,
+   "un_imf": {
+    "ramp": {
+     "n": 100,
+     "med": 1.5677683907900906,
+     "p25": 1.4484117981734694,
+     "p75": 15.149905428768772
+    },
+    "settled": {
+     "n": 100,
+     "med": 1.5230886762097136,
+     "p25": 1.42771421344505,
+     "p75": 15.522640713429036
+    },
+    "sin_imf_en_banda": 0
+   },
+   "suma": {
+    "ramp": {
+     "n": 100,
+     "med": 3.056811238052833,
+     "p25": 2.9374726211146736,
+     "p75": 3.2009898893348576
+    },
+    "settled": {
+     "n": 100,
+     "med": 3.01899499474597,
+     "p25": 2.886169695544584,
+     "p75": 3.1338083551638056
+    },
+    "sin_imf_en_banda": 0
+   }
+  },
+  "200": {
+   "n": 100,
+   "rms_imf1_kV": 2.015789000760891,
+   "s_por_descomposicion": 46.971,
+   "un_imf": {
+    "ramp": {
+     "n": 100,
+     "med": 4.708681248522611,
+     "p25": 1.4701136378909192,
+     "p75": 5.495319117479466
+    },
+    "settled": {
+     "n": 100,
+     "med": 4.82235108830537,
+     "p25": 1.4189204761920553,
+     "p75": 5.65607300811773
+    },
+    "sin_imf_en_banda": 0
+   },
+   "suma": {
+    "ramp": {
+     "n": 100,
+     "med": 2.4066019403897743,
+     "p25": 2.306404144234244,
+     "p75": 2.4972381575999547
+    },
+    "settled": {
+     "n": 100,
+     "med": 2.371798842263935,
+     "p25": 2.3005504179506526,
+     "p75": 2.44896179194843
+    },
+    "sin_imf_en_banda": 0
+   }
+  },
+  "500": {
+   "n": 100,
+   "rms_imf1_kV": 2.0016534433263957,
+   "s_por_descomposicion": 114.92399999999998,
+   "un_imf": {
+    "ramp": {
+     "n": 100,
+     "med": 4.3009115377151,
+     "p25": 1.3920111980517242,
+     "p75": 4.902490181674269
+    },
+    "settled": {
+     "n": 100,
+     "med": 4.241829911574664,
+     "p25": 1.3707967193207615,
+     "p75": 4.735834493809641
+    },
+    "sin_imf_en_banda": 0
+   },
+   "suma": {
+    "ramp": {
+     "n": 100,
+     "med": 2.3039236748627596,
+     "p25": 2.238099169020445,
+     "p75": 2.406720206292856
+    },
+    "settled": {
+     "n": 100,
+     "med": 2.2876130341069203,
+     "p25": 2.213641594074594,
+     "p75": 2.372287850278135
+    },
+    "sin_imf_en_banda": 0
+   }
+  }
+ }
+}
