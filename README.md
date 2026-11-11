@@ -7,7 +7,13 @@ Code and data that reproduce every signal, table and figure of the paper:
 
 The paper separates the two stages of Hilbert–Huang-type pipelines (decomposition and instantaneous-frequency estimation) and compares 19 estimators used in measurement practice over ten Monte Carlo scenarios, a parametric sweep of the amplitude–frequency plane and a validation with a measured electric-vehicle-charger background.
 
-Each release is archived on Zenodo with its own DOI. Release v1.0.0: <https://doi.org/10.5281/zenodo.23214231>; the Zenodo record lists the later versions. **Release v1.1.0 is the one that corresponds to the manuscript submitted to *Electric Power Systems Research*** (table and figure numbers below are those of that manuscript).
+Each release is archived on Zenodo with its own DOI:
+
+- **v1.1.0**, the release that corresponds to the manuscript submitted to *Electric Power Systems Research*: <https://doi.org/10.5281/zenodo.24139294>
+- v1.0.0: <https://doi.org/10.5281/zenodo.23214231>
+- all versions: <https://doi.org/10.5281/zenodo.23214230>
+
+Table and figure numbers below are those of the submitted manuscript.
 
 ---
 
