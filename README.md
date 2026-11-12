@@ -9,7 +9,8 @@ The paper separates the two stages of Hilbert–Huang-type pipelines (decomposit
 
 Each release is archived on Zenodo with its own DOI:
 
-- **v1.1.0**, the release that corresponds to the manuscript submitted to *Electric Power Systems Research*: <https://doi.org/10.5281/zenodo.24139294>
+- **v1.1.1**, the release that corresponds to the manuscript submitted to *Electric Power Systems Research*: latest version under <https://doi.org/10.5281/zenodo.23214230>
+- v1.1.0: <https://doi.org/10.5281/zenodo.24139294>. Same code and results as v1.1.1; in v1.1.0 the file `analisis_pendientes/d_fase_aleatoria.json` still carried a note written before that run was adopted in the paper (Section 6.4 and Section S7), and its full-HHT row was labelled `HHT, naive IMF rule` instead of `HHT, band-occupancy rule`. No number changed.
 - v1.0.0: <https://doi.org/10.5281/zenodo.23214231>
 - all versions: <https://doi.org/10.5281/zenodo.23214230>
 

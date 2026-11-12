@@ -1,7 +1,7 @@
 """d_fase_aleatoria.py -- Escenario D con la fase inicial del transitorio sorteada, phi ~ U(-pi, pi).
 
-Prueba exploratoria (11-nov-2026): NO es un resultado del articulo. Responde a la objecion de que
-el Escenario D usa una sola fase del transitorio (phi = 0). Mismo ruido y mismas semillas de
+Resultado citado en el articulo (Sec. 6.4 y Seccion S7 del suplementario; corrida del 11-nov-2026).
+Responde a la objecion de que el Escenario D usa una sola fase del transitorio (phi = 0). Mismo ruido y mismas semillas de
 CEEMDAN que mc10r_resumable.py (ruido 1032000+r, ensamble 22000+r); la fase usa una semilla aparte
 (1035000+r), de modo que cada realizacion es la de D_ce_raw.jsonl con otra fase.
 
@@ -26,6 +26,12 @@ from d_fases import extra_extremos
 from PyEMD import CEEMDAN
 N, T0, TAU, FE, A0 = 100, m4.T0, m4.TAU, m4.FE, 60.0
 RAW = os.path.join(HERE, 'd_fase_aleatoria_raw.jsonl')
+# 'HHT, naive IMF rule' es el nombre de clave heredado de mc4_transient.py y de D_ce_raw.jsonl; la regla que
+# aplica es la de ocupacion de banda (la de la Tabla de D). Se conserva en los datos crudos y se renombra en el agregado.
+ETIQUETA = {'HHT, naive IMF rule': 'HHT, band-occupancy rule'}
+NOTA = ("Resultado citado en el articulo (Sec. 6.4 y Seccion S7). La fila 'HHT, band-occupancy rule' es la clave "
+        "'HHT, naive IMF rule' de d_fase_aleatoria_raw.jsonl, de D_ce_raw.jsonl y de mc4_transient.py: "
+        "la regla de ocupacion de banda del pipeline HHT.")
 
 
 def cerca(f, s):
@@ -53,15 +59,15 @@ def una(r, phi):
 
 
 def agregar():
-    rows = [json.loads(l) for l in open(RAW)]; out = dict(n=len(rows), nota='Prueba exploratoria; no es un resultado del articulo.')
+    rows = [json.loads(l) for l in open(RAW)]; out = dict(n=len(rows), nota=NOTA)
     ex = np.array([x['extra_tras_inicio'] > 0 for x in rows])
     out['realizaciones_con_extremos_extra_tras_inicio'] = int(ex.sum())
     for k in ['Matrix Pencil', 'ESPRIT', 'EMD-guided LM', 'PF+Hilbert', 'HHT, naive IMF rule']:
         f = np.array([np.nan if x[k][0] is None else x[k][0] for x in rows], float); tau = np.array([np.nan if x[k][1] is None else x[k][1] for x in rows], float)
         ok = np.isfinite(f) & (abs(f-FE) < 5)
-        out[k] = dict(right=float(ok.mean()), n_right=int(ok.sum()), right_con_extra=float(ok[ex].mean()) if ex.any() else None,
+        e = ETIQUETA.get(k, k); out[e] = dict(right=float(ok.mean()), n_right=int(ok.sum()), right_con_extra=float(ok[ex].mean()) if ex.any() else None,
                       right_sin_extra=float(ok[~ex].mean()) if (~ex).any() else None, f=summarize(f), tau_err=summarize(100*abs(tau-TAU)/TAU))
-        print(f"{k:22s} fenomeno correcto {100*ok.mean():5.1f} % ({ok.sum()}/{len(rows)}) | con extremos extra {out[k]['right_con_extra']} | sin {out[k]['right_sin_extra']} | f med {out[k]['f']['med']:.2f} | tau err med {out[k]['tau_err']['med']}")
+        print(f"{e:24s} fenomeno correcto {100*ok.mean():5.1f} % ({ok.sum()}/{len(rows)}) | con extremos extra {out[e]['right_con_extra']} | sin {out[e]['right_sin_extra']} | f med {out[e]['f']['med']:.2f} | tau err med {out[e]['tau_err']['med']}")
     json.dump(out, open(os.path.join(HERE, 'd_fase_aleatoria.json'), 'w'), indent=1)
 
 

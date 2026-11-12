@@ -1,6 +1,6 @@
 {
  "n": 100,
- "nota": "Prueba exploratoria; no es un resultado del articulo.",
+ "nota": "Resultado citado en el articulo (Sec. 6.4 y Seccion S7). La fila 'HHT, band-occupancy rule' es la clave 'HHT, naive IMF rule' de d_fase_aleatoria_raw.jsonl, de D_ce_raw.jsonl y de mc4_transient.py: la regla de ocupacion de banda del pipeline HHT.",
  "realizaciones_con_extremos_extra_tras_inicio": 45,
  "Matrix Pencil": {
   "right": 1.0,
@@ -74,7 +74,7 @@
    "p75": 7.881674674758445
   }
  },
- "HHT, naive IMF rule": {
+ "HHT, band-occupancy rule": {
   "right": 0.0,
   "n_right": 0,
   "right_con_extra": 0.0,
