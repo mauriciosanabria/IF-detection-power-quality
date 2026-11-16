@@ -1,0 +1,26 @@
+{
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Sanabria Villamizar, Johinner Mauricio",
+      "affiliation": "Universidad Autónoma Metropolitana"
+    },
+    {
+      "name": "López García, Irvin",
+      "affiliation": "Universidad Autónoma Metropolitana"
+    },
+    {
+      "name": "López-Monsalvo, César Simón",
+      "affiliation": "Universidad Autónoma Metropolitana"
+    },
+    {
+      "name": "Bueno López, Maximiliano",
+      "affiliation": "Universidad Tecnológica de Pereira"
+    },
+    {
+      "name": "Beltran-Carbajal, Francisco",
+      "affiliation": "Universidad Autónoma Metropolitana",
+      "orcid": "0000-0001-5244-5587"
+    }
+  ]
+}
