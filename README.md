@@ -1,7 +1,7 @@
 # IF-detection-power-quality
 Code and data that reproduce every signal, table and figure of the paper:
 
-> J. M. Sanabria Villamizar, I. López García, M. Bueno López, C. S. López-Monsalvo and F. Beltran-Carbajal,
+> J. M. Sanabria Villamizar, I. López García, C. S. López-Monsalvo, M. Bueno López and F. Beltran-Carbajal,
 > **"Revisiting Instantaneous Frequency Detection in Power Quality: When Does Adaptive Decomposition Actually Help?"**,
 > submitted to *Electric Power Systems Research* (Elsevier), 2026.
 
@@ -155,7 +155,7 @@ If you use this code, please cite the paper:
 ```bibtex
 @article{SanabriaVillamizar2026revisiting,
   author  = {Sanabria Villamizar, Johinner Mauricio and L{\'o}pez Garc{\'i}a, Irvin and
-             Bueno L{\'o}pez, Maximiliano and L{\'o}pez-Monsalvo, C{\'e}sar Sim{\'o}n and
+             L{\'o}pez-Monsalvo, C{\'e}sar Sim{\'o}n and Bueno L{\'o}pez, Maximiliano and
              Beltran-Carbajal, Francisco},
   title   = {Revisiting Instantaneous Frequency Detection in Power Quality:
              When Does Adaptive Decomposition Actually Help?},
